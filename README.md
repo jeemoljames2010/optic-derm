@@ -1,6 +1,6 @@
 # OPTIC-DERM Explorer
 
-A lean Streamlit prototype that demonstrates how multimodal optical imaging can be translated into histopathology-relevant tissue descriptors.
+A lean Streamlit prototype that demonstrates how multimodal optical imaging can be translated into histopathology-relevant tissue descriptors. Multimodal imaging for dermatological applications.
 
 ## Features
 
