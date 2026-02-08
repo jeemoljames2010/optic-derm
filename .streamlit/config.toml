@@ -1,0 +1,22 @@
+# Streamlit config for local run and hosted deployment (e.g. Streamlit Community Cloud)
+# https://docs.streamlit.io/develop/concepts/configuration
+
+[server]
+# Port (default 8501). Hosting platforms often set this via env.
+port = 8501
+# Allow file uploads up to 200 MB (useful for your image uploads)
+maxUploadSize = 200
+# Enable XSRF protection (recommended for public apps)
+enableXsrfProtection = true
+# Enable CORS; set false if you hit CORS issues behind a proxy
+enableCORS = false
+
+[browser]
+# Open in default browser when running locally
+gatherUsageStats = false
+
+[theme]
+# Optional: use "light" or "dark" or leave default
+# primaryColor = "#3182ce"
+# backgroundColor = "#ffffff"
+# secondaryBackgroundColor = "#f7fafc"

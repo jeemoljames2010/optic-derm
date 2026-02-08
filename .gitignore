@@ -8,8 +8,8 @@ __pycache__/
 venv/
 env/
 
-# Streamlit
-.streamlit/
+# Streamlit (keep .streamlit/config.toml in repo; ignore secrets)
+.streamlit/secrets.toml
 
 # IDE / OS
 .idea/
